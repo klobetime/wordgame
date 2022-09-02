@@ -1,0 +1,15 @@
+# build artifacts
+node_modules/
+coverage/
+build/
+*.tsbuildinfo
+.eslintcache
+
+# Mac finder artifacts
+**/.DS_Store
+
+# vim artifacts
+**.swp
+
+# JetBrains artifacts
+**/.idea/

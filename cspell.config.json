@@ -1,0 +1,35 @@
+// cspell configuration
+{
+  "version": "0.2",
+  "language": "en",
+  "allowCompoundWords": true,
+
+  // custom dictionary for this project
+  "dictionaryDefinitions": [
+    {
+      "name": "project-dictionary",
+      "path": "src/project-dictionary.txt",
+      "addWords": true // editor friendly
+    }
+  ],
+
+  // active dictionaries: https://cspell.org/docs/dictionaries/
+  "dictionaries": [
+    "node",
+    "typescript",
+    "html",
+    "css",
+    "softwareTerms",
+    "project-dictionary"
+  ],
+
+  // files and paths in which we won't check spelling
+  "ignorePaths": [
+    "package.json",
+    "package-lock.json",
+    "src/project-dictionary.txt",
+    "build/**",
+    "coverage/**",
+    "node_modules/**"
+  ]
+}

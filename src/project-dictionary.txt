@@ -1,0 +1,6 @@
+# Place project-specific words that are spelled correctly but flagged by the spell checker here.
+# See https://cspell.org/docs/dictionaries-custom/ for proper syntac.
+tsbuildinfo
+distclean
+Scooby
+Bevo
